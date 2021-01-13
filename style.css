@@ -1,0 +1,157 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:white;
+}
+
+/* splash screen css starts here  */
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    /*background: #e4eff2 url("bank.jpg") no-repeat center center;*/
+    z-index: 99999;
+}
+/* splash screen css ends here  */
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: #f2e9e4!important;
+}
+
+.navbar-brand{
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    color: black;
+}
+
+.nav-link{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    display:inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    
+
+}
+
+.nav-link:hover{
+    letter-spacing: 4px;
+}
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content{
+    height: 100vh;
+    background-color: #002D62;
+    color: #ffffff;
+    padding: 3rem;
+    /*border-bottom-left-radius: 25rem;
+    border-bottom-right-radius: 25rem;*/
+    margin-bottom: 1vh;
+    align-items: center;
+}
+
+.hero-img-div{
+    height: 70vh;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.d{
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.get-started {
+    border-radius: 1em;
+    display:inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: white;
+    color:black;
+    transition: 0.5s;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.get-started:hover{
+    letter-spacing: 6px;
+    text-decoration: none;
+
+}
+/* here content css starts here  */
+
+/* get-started-buttons css starts here*/
+.get-started-content{
+    height: 60vh;
+    background-color: #ff8a65;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #039be5;
+    color: #fff!important;
+    transition: 0.3s;
+}
+
+.get-started-content a:hover{
+    background-color: #017ab6;
+    text-decoration: none;
+}
+/* get-started-buttons css end here*/
+
+
+footer{
+    background-color:  gray;
+    margin:0;
+    padding: 10px 30px;
+}
+.buttom-line  a{
+     color:white;
+     align-items: center;
+}
+
+
+.social-icons tr{
+    list-style: none;
+    display: inline-block;
+    padding: 0.5rem;
+    text-decoration: none;
+    margin-right: 50%;
+    
+}
+
+
+.github{
+    color: #24292e;
+}
+
+.linkedin{
+    color: #0077b5;
+}
+
+.google{
+    color: #D44638;
+}
